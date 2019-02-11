@@ -1,0 +1,8 @@
+(?i)\s(style)="([^"]*)"@@Rule1
+(\swidth\b(\s*=\s*)"(\d*)(%|px)")|(\swidth\b(\s*=\s*)"(\d*)")|(\swidth\b(\s*=\s*)(\d*)(%|px))|(\swidth\b(\s*=\s*)(\d*))|(\swidth\b(\s*=\s*)"(\d*)")@@Rule2
+(\sheight\b(\s*=\s*)"(\d*)(%|px)")|(\sheight\b(\s*=\s*)"(\d*)")|(\sheight\b(\s*=\s*)(\d*)(%|px))|(\sheight\b(\s*=\s*)(\d*))|(\sheight\b(\s*=\s*)"(\d*)")@@Rule2
+(\bvertical-align\b(\s*=\s*)"([a-zA-Z]*"))|(\bvertical-align\b(\s*=\s*)([a-zA-Z]*))@@Rule2
+((\s+|{)align\b(\s*=\s*)("|)([a-zA-Z]*(|")))@@Rule2
+(\bborder-spacing\b(\s*=\s*)"(\d*)(%|px)")|(\bborder-spacing\b(\s*=\s*)"(\d*)")|(\bborder-spacing\b(\s*=\s*)(\d*)(%|px))|(\bborder-spacing\b(\s*=\s*)(\d*))|(\bborder-spacing\b(\s*=\s*)"(\d*)")@@Rule2
+(\bcellpadding\b(\s*=\s*)"(\d*)(%|px)")|(\bcellpadding\b(\s*=\s*)"(\d*)")|(\bcellpadding\b(\s*=\s*)(\d*)(%|px))|(\bcellpadding\b(\s*=\s*)(\d*))|(\bcellpadding\b(\s*=\s*)"(\d*)")@@Rule2
+(\bborder\b(\s*=\s*)"(\d*)(%|px)")|(\bborder\b(\s*=\s*)"(\d*)")|(\bborder\b(\s*=\s*)(\d*)(%|px))|(\bborder\b(\s*=\s*)(\d*))|(\bborder\b(\s*=\s*)"(\d*)")@@Rule2
